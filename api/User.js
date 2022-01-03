@@ -18,6 +18,7 @@ const bcrypt = require("bcrypt");
 
 //path for static verified page
 const path = require("path");
+
 const { dirname } = require("path");
 
 // nodemailer stuff
