@@ -126,7 +126,7 @@ router.post("/signup", (req, res) => {
 //send verification email
 sendVerificationEmail = ({ _id, email }, res) => {
   //url to be used in the email
-  const currentUrl = "http://localhost:8000/";
+  const currentUrl = "https://obscure-garden-97051.herokuapp.com/";
 
   const uniqueString = uuidv4() + _id;
 
